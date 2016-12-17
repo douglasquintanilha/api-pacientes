@@ -2,14 +2,17 @@
   "name": "api-pacientes",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server",
+    "start": "node server.js",
     "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
     "heroku-postbuild": "echo This runs afterwards."
   },
-  "author": "",
+  "author": "Douglas Quintanilha",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
