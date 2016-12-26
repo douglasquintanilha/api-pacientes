@@ -12,8 +12,6 @@ app.use(function(req, res, next) {
 	next();
 });
 
-console.log(process.cwd());
-
 consign({cwd: process.cwd()+"/app"})
 	.include('api')
 	.then('routes')
