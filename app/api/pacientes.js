@@ -2,11 +2,11 @@ var api = {};
 
 var pacientes = [
 					{
-						nome: "Jessica",
-						peso: 44,
+						nome: "Jéssica",
+						peso: 47,
 						altura: 1.54,
 						gordura: 17,
-						imc: 18.55
+						imc: 19.82
 					},
 					{
 						nome: "Flavio",
