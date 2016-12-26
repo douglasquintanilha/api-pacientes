@@ -12,7 +12,9 @@ app.use(function(req, res, next) {
 	next();
 });
 
-consign({cwd: __dirname+'app'})
+console.log(process.cwd());
+
+consign({cwd: process.cwd()+"/app"})
 	.include('api')
 	.then('routes')
 	.into(app);
